@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Irish Grover", system-ui;
+    font-size: 15px;
+}
+
+.background-image{
+    background-image: url(images/game\ back.png);
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content{
+    background-color: rgba(79, 80, 80, 0.253);
+}
+
+
+
+.game{
+    padding-top: 2px;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.game-content{
+    width: 800px;
+    margin-left: 250px;
+    align-items: center;
+    margin-right: 100px;
+    background: rgba(245, 245, 245, 0.68);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.timer-lives{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    color: #D60909;
+}
+
+.timer-label{
+    display: flex;
+    flex-direction: row;
+}
+
+#timer{
+    margin-top: 15px;
+}
+
+.timer-label img{
+    width: 50px;
+    height: 50px;
+}
+
+.game-image{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.score-card{
+    background: #f3353562;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+
+.text{
+    color: #730505;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.welcome{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#score{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+.tomato{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+
+.answer{
+    width: 300px;
+    height: 60px;
+    color: #D60909;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+.answer-tomato{
+    width: 50px;
+    height: 50px;
+    margin-left: 200px;
+}
+
+.answer-feedback{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#answer-buttons button {
+    margin: 5px;
+    background-color: #D60909;
+    color: aliceblue;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+#answer-buttons{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.level{
+    font-size: 20px;
+    margin-left: 100px;
+    color: #D60909;
+}
+
+.lives{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.quitbtn{
+    background: red;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.homebtn{
+    background: red;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.restartbtn{
+    background-color: #D60909;
+    color: aliceblue;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.answer-restart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.quote-popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quote-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+.blur {
+    filter: blur(5px);
+}
+
+.sound-icon {
+    background-color: #D60909;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 480px; 
+    right: 20px; 
+}
+
+.sound-icon i {
+    color: white;
+    padding: 5px;
+}

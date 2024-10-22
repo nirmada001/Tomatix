@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Irish Grover", system-ui;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.background-image{
+    background-image: url(images/level.png);
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+   
+}
+
+.content{
+    background-color: rgba(79, 80, 80, 0.253);
+}
+
+
+.level{
+    padding-top: 2px;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.level-content{
+    margin-left: 100px;
+    align-items: center;
+    top: 5%;
+    margin-right: 100px;
+    width: 500px;
+    background: rgba(245, 245, 245, 0.68);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.welcome{
+    margin-top: 20px;
+    color: #D60909;
+}
+
+button{
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #D60909;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    font-size: larger;
+
+}
+
+.tomato{
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+}
+
+.level-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.button a:hover{
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: #D60909;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.quitbtn{
+    background: red;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.homebtn{
+    background: red;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.sound-icon {
+    background-color: #D60909;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 480px; 
+    right: 20px; 
+}
+
+.sound-icon i {
+    color: white;
+    padding: 5px;
+}
